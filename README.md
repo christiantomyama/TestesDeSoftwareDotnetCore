@@ -1,0 +1,2 @@
+criando api
+dominio rico
