@@ -22,8 +22,8 @@ Verify Assertion
 	calculadoraRepo.Verify(c => c.Somar(v1, v2, Times.Once);
 	calculadoraRepo.Verify(c => c.Somar(It.IsAny<double>(), It.IsAny<double>()), Times.Once);
 Collection Fixture
-    [Collection(nameof(CustomerCollection))]
-	[CollectionDefinition(nameof(CustomerCollection))]
+	[Collection(nameof(CustomerCollection))]
+	[CollectionDefinition(nameof(CustomerCollection))]	
 
 AutoMock Fixture
 Bogus - Generation of random data
