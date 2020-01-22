@@ -36,6 +36,8 @@
     <None Include="App.config" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Core\Entity.cs" />
+    <Compile Include="Core\IRepository.cs" />
     <Compile Include="Customers\Customer.cs" />
     <Compile Include="Customers\Events\CustomerEmailNotification.cs" />
     <Compile Include="Customers\Repository\ICustomerRepository.cs" />
